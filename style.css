@@ -2,3 +2,25 @@
     color: red;
     background-color: gray;
 } */
+
+#btn2 {
+    background-color: rgba(47, 35, 116, 0.404);
+    border-color: 2px solid black;
+}
+
+.btn{
+    font-size: 24px;
+    background-color: brown;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(230, 255, 138);
+    border: 2px solid black;
+}
+
