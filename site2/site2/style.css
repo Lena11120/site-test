@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+article {
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px 150px 60px;
+    background-color: aquamarine;
+    box-shadow: 0 0 16px black;
+}
+
+#main {
+    border: 2px solid rgb(212, 198, 198);
+}
+
+h1, h1, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo {
+    float: left;
+}
+
+#slogans {
+    float: right;
+    gont-size : .7rem;
+    text-align: right;
+    color: antiquewhite;
+    width: 30%;
+}
+
+.clearfix::before, .clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.aligin-left {
+    float: left;
+    margin-right: 15px;
+}
+
+.aligin-right {
+float: right;
+margin-left: 15px;
+}
+
+.block {
+    padding: 30px;
+}
+
+#main img {
+    height: ;: 100px;
+}
+
+.block:nth-child(odd) {
+    background-color: rgb(241, 99, 99);
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+}
+
+#main {
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+.clearfix::before, .clearfix::after,
+.block::before, .block::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after, .block::after {
+    clear: both;
+}
